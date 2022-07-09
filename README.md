@@ -8,3 +8,5 @@
 # [TR] Scriptler Birbirine Entegreli İsim VS. Değiştirildiğinde Çalışmaz!
 
 # [EN] Scripts Integrated Name VS. Replaceable Does Not Work!
+
+# Showcase https://www.youtube.com/watch?v=ISa3-bfOojc

@@ -5,6 +5,6 @@
 
 
 
-# Scriptler Birbirine Entegreli İsim VS. Değiştirildiğinde Çalışmaz!
+# [TR] Scriptler Birbirine Entegreli İsim VS. Değiştirildiğinde Çalışmaz!
 
-# Scripts Integrated Name VS. Replaceable Does Not Work!
+# [EN] Scripts Integrated Name VS. Replaceable Does Not Work!

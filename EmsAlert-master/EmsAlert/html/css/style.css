@@ -1,0 +1,115 @@
+body {
+    background-color: transparent !important;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+}
+
+.notification .gizle {
+    display: none;
+}
+
+#top-bar-oldNotifi {
+    display: none;
+}
+
+.notification {
+    display: flex;
+    font: caption;
+    font-size: 13px;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.notification-ic {
+    background-color: #623131;
+	border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px skyblue inset;
+    border-radius: 8px;
+    min-width: 350px;
+    padding: 15px;
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: .3s;
+    margin-bottom: 5px;
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.line-1, .line-2, .line-3, .line-4, .line-5, .line-6, .line-8 {
+    display: block;
+    padding-left: 1px;
+    padding-bottom: 2px;
+}
+
+.line-3, .line-4 {
+    display: inline-block;
+}
+
+.ikon-sagi {
+    display: inline-block;
+    padding-left: 1px;
+    font-size: 12px;
+}
+
+.i {
+    display: inline-block;
+}
+
+.kirmizi {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px;
+    font-size: 10px;
+    background: #e74c3c;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.baslik {
+    display: inline-block;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.e-bas {
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 3px -10px -10px -10px;
+    font-size: 11px;
+    color: #000000;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #e74c3c;
+    border-right: 5px solid #e74c3c;
+    color: #ffffff;
+    border-radius: 2px;
+    min-width: 270px;
+    justify-content: space-around;
+    padding: 5px 10px;
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: .3s;
+}
